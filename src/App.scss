@@ -1,0 +1,18 @@
+@use 'styles' as *;
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $gradient-blue;
+  background: linear-gradient($gradient-blue, $gradient-violet);
+  font-size: 12px;
+  font-family: "KumbhSans";
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
